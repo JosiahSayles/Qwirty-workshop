@@ -7,18 +7,18 @@
 #toys-baby,
 #garden {
   background-color: tan;
-
   margin-left: 10px;
   margin-right: 2px;
   margin-bottom: 5px;
   width: 10rem;
-  height: 10p;
+  height: 2rem;
   font-style: bold;
 }
 
 main {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 2fr);
+  margin: 10px;
 
   .product-nav {
     grid-column: 1 /1;
@@ -28,44 +28,69 @@ main {
 
 .products {
   display: flex;
+
   justify-content: center;
   align-items: flex-end;
-
-  width: 10rem;
+  flex-grow: 1fr;
+  width: 200px;
   height: 15rem;
-  margin: 1px;
+  margin: 5px;
 
-  margin: 1ch;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
 
 section {
   display: flex;
+
   flex-direction: column;
   justify-content: center;
+  width: 14vw;
+  height: 40vh;
+  margin: 5px;
 }
 
 h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: teal;
   color: white;
-  width: 10rem;
-  height: 3rem;
-  margin: 5px;
-  padding: 8px;
+  width: 150px;
+  height: 50px;
+  margin: 2px;
+  padding: 2px;
 }
 
 h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: teal;
   color: white;
-  width: 10rem;
-  height: 3rem;
-  margin: 5px;
-  padding: 8px;
+  width: 150px;
+  height: 50px;
+  margin: 2px;
+  padding: 10px;
 }
 
 img {
+  display: flex;
   height: 9rem;
   width: 10rem;
-  padding: 10px;
+  padding: 5px;
+  margin: 2px;
+}
+h5 {
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: tan;
+  align-items: flex-start;
+  font-size: 15px;
 }
