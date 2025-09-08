@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ranchers", sans-serif;
+  font-size: 1.3rem;
+}
+body {
+  background-color: lightgray;
+}
+h1 {
+  font-size: 3rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: tan;
+}
+
+.user-nav-left {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+
+li {
+  border-right: 1px solid black;
+  text-decoration: none;
+  list-style: none;
+  padding: 1%;
+}
+
+.user-nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+h2 {
+  background-color: teal;
+  color: white;
+  padding: 8px;
+}
+
+.search-plus {
+  display: flex;
+  justify-content: space-between;
+
+  flex-grow: 1fr 1fr 1fr;
+  margin: 2rem;
+}

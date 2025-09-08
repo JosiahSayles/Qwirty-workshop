@@ -3,35 +3,202 @@
   <meta charset="utf-8" />
   <head>
     <title>Qwirty</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=shopping_cart"
+    />
     <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./content.css" />
+    <link rel="stylesheet" href="./img/" />
   </head>
   <body>
-    <h1>Qwirty</h1>
     <header>
       <nav>
-        <ul class="User-nav">
-          <li><a href="#"></a>Big Deals</li>
-          <li><a href="#"></a>Top Brands</li>
-          <li><a href="#"></a>Suggestions</li>
-          <li><a href="#"></a>Help & Contact</li>
+        <ul class="user-nav-left">
+          <li><a href="big-deals"></a>Big Deals</li>
+          <li><a href="top-brands"></a>Top Brands</li>
+          <li><a href="suggestions"></a>Suggestions</li>
+          <li><a href="help-contact"></a>Help & Contact</li>
+        </ul>
+        <ul class="user-nav-right">
           <li><a href="#"></a> Log In/Sign Up</li>
           <li><a href="#"></a>Account</li>
-          <li><a href="#"></a>Cart</li>
+          <li>
+            <a href="#"></a
+            ><span class="material-symbols-outlined"> shopping_cart </span>
+          </li>
         </ul>
       </nav>
+      <div class="search-plus">
+        <h1>Qwirty</h1>
+        <form action="/search" method="get">
+          <input
+            type="search"
+            id="search-input"
+            name="query"
+            placeholder="Search..."
+          />
+          <button type="submit">Search</button>
+        </form>
+        <h2>0% Financing 24 Months</h2>
+      </div>
     </header>
     <main>
-      <ul class="Product-nav">
-        <li><a href="#"></a>Clothing & Shoes</li>
-        <li><a href="#"></a>Electronics</li>
-        <li><a href="#"></a>Books</li>
-        <li><a href="#"></a>Food & Drinks</li>
-        <li><a href="#"></a>Appliances</li>
-        <li><a href="#"></a>Sports & Outdoors</li>
-        <li><a href="#"></a>Toys & Baby</li>
-        <li><a href="#"></a>Garden</li>
+      <ul class="product-nav">
+        <li id="clothing-shoes"><a href=""></a>Clothing & Shoes</li>
+        <li id="electronics"><a href=""></a>Electronics</li>
+        <li id="books"><a href=""></a>Books</li>
+        <li id="food-drinks"><a href=""></a>Food & Drinks</li>
+        <li id="appliances"><a href=""></a>Appliances</li>
+        <li id="sports-outdoors"><a href=""></a>Sports & Outdoors</li>
+        <li id="toys-baby"><a href=""></a>Toys & Baby</li>
+        <li id="garden"><a href=""></a>Garden</li>
       </ul>
+
+      
+      <section><h3>Product Name</h3>
+        <img src="./img/1.jpg" alt="image 1">
+      <p class="products">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut totam,
+        sapiente quia ipsam aliquam similique saepe molestiae distinctio
+        consectetur labore. Quae est harum impedit iure at! Aliquam, corporis
+        incidunt. Eum.
+      </p>
+      <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/2.jpg" alt="image 2">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe soluta,
+          facere quod, rerum nostrum natus quae perferendis quo optio pariatur
+          delectus, dignissimos qui. Voluptatum libero quam, esse exercitationem
+          sint facere.
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/3.jpg" alt="image 3">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quidem
+          velit repellat, odio dolorem voluptas provident, exercitationem,
+          eveniet obcaecati molestias nobis earum veniam aliquam eos id nesciunt
+          quia magni et?
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/4.jpg" alt="image 4">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+          quos impedit rerum exercitationem, aspernatur libero, nesciunt
+          quibusdam pariatur velit harum eum eius fuga nulla voluptatum sapiente
+          ducimus quidem iste ipsum?
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/5.jpg" alt="image 5">
+        <p class="products">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi rem
+          suscipit odio dolores cumque dignissimos molestias ab eius deleniti,
+          nobis est illo repellat nostrum repellendus! Tempora nisi eveniet
+          dicta temporibus?
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section> 
+        <h3>Product Name</h3>
+        <img src="./img/6.jpg" alt="image 6">
+        <p class="products">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi rem
+          suscipit odio dolores cumque dignissimos molestias ab eius deleniti,
+          nobis est illo repellat nostrum repellendus! Tempora nisi eveniet
+          dicta temporibus?
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/7.jpg" alt="image 7">
+        <p class="products">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente
+          accusantium incidunt impedit tempora provident ut nostrum dolore unde
+          repellat, sequi facilis iusto autem rem maxime aut animi eius quia in.
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/8.jpg" alt="image 8">
+        <p class="products">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde nulla
+          voluptates cumque ipsa maxime omnis distinctio at nostrum? Non
+          nesciunt dolorem, maxime perferendis laborum quae quam numquam
+          assumenda ducimus alias.
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section>
+        <h3>Product Name</h3>
+        <img src="./img/9.jpg" alt="image 9">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+          nobis eius provident non repellendus dignissimos magnam? Vitae iure
+          pariatur dolore. Iusto ullam mollitia sint, dolore adipisci voluptates
+          veniam corporis cum!
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section>
+        <h3>Product Name</h3>
+        <img src="./img/10.jpg" alt="image 10">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          libero voluptatum eos vel, accusamus, cumque consequatur nobis tempore
+          ducimus dolore distinctio assumenda molestias sapiente illum, saepe
+          optio mollitia neque exercitationem?
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section> <h3>Product Name</h3>
+        <img src="./img/11.jpg" alt="image 11">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod rem
+          exercitationem ea veniam nulla libero nesciunt neque nisi laboriosam.
+          Temporibus officia nobis aut reprehenderit vero quos provident labore
+          recusandae sint.
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/12.jpg" alt="image 12">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur,
+          magni. Inventore cupiditate officia odit rem earum aliquid.
+          Consequatur est tenetur libero quidem nisi fugiat, illo, perferendis
+          saepe magni ea iure!
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section> <h3>Product Name</h3>
+        <img src="./img/13.jpg" alt="image 13">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+          iure obcaecati laborum unde architecto pariatur veritatis id soluta
+          veniam mollitia cum alias repellendus maxime illum, autem cumque nemo
+          voluptates voluptatem.
+        </p>
+        <h4>Price: $27.99</h4></section>
+      <section><h3>Product Name</h3>
+        <img src="./img/14.jpg" alt="image 14">
+        <p class="products">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          nihil quibusdam eaque sapiente esse. Laborum perferendis ratione
+          reiciendis optio, tenetur quasi ipsum aperiam facere odio adipisci
+          quas, ex repellendus fugiat?
+        </p>
+        <h4>Price: $27.99</h4></section>
+       </section>
+        
+      </section>
     </main>
   </body>
 </html>
