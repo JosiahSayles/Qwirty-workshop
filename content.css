@@ -28,13 +28,12 @@ main {
 
 .products {
   display: flex;
-
   justify-content: center;
   align-items: flex-end;
   flex-grow: 1fr;
   width: 200px;
   height: 10rem;
-  margin: 5px;
+  margin: 10px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
@@ -71,7 +70,7 @@ h4 {
   border-radius: 5px;
   width: 150px;
   height: 30px;
-  margin: 2px;
+  margin: 3px;
   padding: 10px;
 }
 
@@ -87,6 +86,8 @@ h2:hover {
 
 img {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 9rem;
   width: 10rem;
   padding: 5px;
