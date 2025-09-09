@@ -1,11 +1,11 @@
 * {
   padding: 0;
   margin: 2px;
-  font-family: "Ranchers", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 body {
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr 1fr;
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
   grid-template-rows: 1fr 90% 1fr;
   background-color: lightgray;
 
@@ -15,7 +15,7 @@ body {
   }
 
   main {
-    grid-column: 2/3;
+    grid-column: 3/4;
   }
 
   footer {
@@ -39,30 +39,40 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding-left: 20vh;
+}
+
+.nav-styling {
+  border-right: 1px solid black;
 }
 
 li {
-  border-right: 1px solid black;
   padding-right: 2px;
   text-decoration: none;
   list-style: none;
 }
 
 .user-nav-right {
+  border-right: 1px solid black;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
 h2 {
-  background-color: teal;
+  background-color: #f58c14;
   color: white;
   padding: 2px;
+  margin-left: 3ch;
+  width: 10vw;
+  border-radius: 5px;
 }
 
 .search-plus {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1fr 4fr 1fr;
   margin: 10px;
+  padding-right: 10ch;
 }
