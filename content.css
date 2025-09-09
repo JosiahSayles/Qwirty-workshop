@@ -75,11 +75,13 @@ h4 {
 }
 
 h4:hover {
+  cursor: pointer;
   background-color: white;
   color: #f58c14;
 }
 
 h2:hover {
+  cursor: pointer;
   background-color: white;
   color: #f58c14;
 }
@@ -111,6 +113,11 @@ footer {
 }
 
 li:hover {
+  cursor: pointer;
   background-color: darkorange;
   color: white;
+}
+
+.material-symbols-outlined:hover {
+  cursor: pointer;
 }
